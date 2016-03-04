@@ -15,9 +15,6 @@ body {
   -ms-animation: pulse 1s linear infinite;
   animation: pulse 1s linear infinite;
 }
-.heart:after {
-  content: "❤";
-}
 @keyframes pulse {
   0% {
     -webkit-transform: scale(1.1);
