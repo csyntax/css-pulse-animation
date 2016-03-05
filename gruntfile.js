@@ -4,7 +4,8 @@ module.exports = function(grunt) {
 		less: {
 			development: {
 					options: {
-							paths: ["css"]
+							paths: ["css"],
+							compress: true
 					},
 					files: {
 							"css/css-pulse-animation.css": "less/css-pulse-animation.less"
